@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g id="Group_1" data-name="Group 1" transform="translate(-320 -163)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(320 163)" fill="#af3535" stroke="#000" stroke-width="5">
+      <rect width="500" height="500" stroke="none"/>
+      <rect x="2.5" y="2.5" width="495" height="495" fill="none"/>
+    </g>
+    <text id="_500_x_500_px" data-name="500 x 500 px" transform="translate(389 440)" font-size="65" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">500 x 500 px</tspan></text>
+  </g>
+</svg>
