@@ -5,34 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="shortcut icon" type="image/png" href="pictures/favicon.jpg">
-  <link rel="stylesheet" href="style.css">
-  <title>Imagination</title> 
+  <link rel="stylesheet" href="css/style.css">
+ 
   
+  <title>Imagination</title>   
 
 </head>
 
 <body> 
   
-  <audio autoplay loop>
+  <!-- <img class="img-banner" src="pictures/Banner.svg">  -->
+
+  
+
+  <script>    
+    const cursor = document.querySelector('.cursor');
+     document.addEventListener('mousemove', e => {
+      cursor.setAttribute("style", "top: "+(e.pageY -10)+"px; left: "+(e.pageX -10)+"px;")
+  })
+
+  document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+   setTimeout(() => {
+      cursor.classList.remove("expand");
+     }, 500)
+    })
+  </script>
+  
+
+
+<!--   <audio autoplay controls loop>
      <source src="audio/Shadows.mp3">
-  </audio>
+  </audio>  -->
+
+
+  <!-- <div class="wrapper">     
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nisi a fermentum aliquam. Praesent non tellus vitae ex tincidunt viverra. Vestibulum laoreet.</p>
+  </div> -->
+
+  <!-- <img class="img-plague" src="pictures/plaguemask.png" alt="plague mask">  -->
+  
+  <!-- <video autoplay loop>   
+    <source src="videos/webm/Mandala.webm">
+  </video>  -->
+
  
 
-  
- <img class="img-banner" src="pictures/Banner.svg"> 
+    <div class="Videos">
+      <video id="mandalaid" autoplay loop>   
+        <source src="videos/webm/Mandala.webm">
+      </video>
+    
+      <video id="cubemorphid" autoplay loop>   
+        <source src="videos/webm/cubemorph.webm">
+        </video>
 
-  <div class="wrapper">     
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nisi a fermentum aliquam. Praesent non tellus vitae ex tincidunt viverra. Vestibulum laoreet.</p>
-  </div>
-
-  <img class="img-plague" src="pictures/plaguemask.png" alt="plague mask"> 
+          <video id="spinnerid" autoplay loop>   
+            <source src="videos/webm/Spinner.webm">
+          </video>
+    
+    
+     </div>
+    
+    
+   
   
-  <video autoplay loop>   
-    <source src="videos/pendelum.mp4">
-  </video> 
+  
+ 
+
+ 
+
 
 
 
 </body>
+
+
+
 </html>
 
