@@ -1,4 +1,4 @@
-<script>   ///Music script 
+   ///Music script 
 
 (function () { // vol on load
      document.getElementById('play').volume = 0.02;
@@ -43,4 +43,4 @@ volume.addEventListener('change', function(e){
 });
 
 
-</script> 
+
