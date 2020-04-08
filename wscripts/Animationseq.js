@@ -1,7 +1,8 @@
+console.log("scriptlog");
 (function () {
  .MenuDiv {
   display: none;
-   console.log("scriptlog");
+   console.log("scriptlog2");
 }
 })();
 
