@@ -1,8 +1,2 @@
 
-
-
 console.log("scriptlog");
-
-
-
-
