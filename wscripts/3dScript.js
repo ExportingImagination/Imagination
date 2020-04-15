@@ -23,6 +23,4 @@ function onWindowResize(){
     renderer.setSize(window.innerWidth, window.innerHeight);          
     }
           
- window.addEventListener('resize', onWindowResize, false);
- init();
- animate(); 
+
